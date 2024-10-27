@@ -1,0 +1,81 @@
+.books-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  font-size: 2rem;
+}
+
+.search-bar {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.book-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1.5rem;
+}
+
+.book-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.delete-button {
+  padding: 0.3rem 0.7rem;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-book-form {
+  margin-top: 2rem;
+}
+
+.add-book-form input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-book-button {
+  padding: 0.5rem 1rem;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.edit-button {
+  padding: 0.3rem 0.7rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+.alert {
+  padding: 0.75rem;
+  margin: 1rem 0;
+  background-color: #28a745;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  text-align: center;
+}

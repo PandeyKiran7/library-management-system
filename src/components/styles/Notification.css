@@ -1,0 +1,53 @@
+.notifications-container {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.notification-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.notification-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd; /* Separator */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notification-item.read {
+  background-color: #e9ecef; /* Slightly darker background for read notifications */
+}
+
+.notification-timestamp {
+  font-size: 0.8em;
+  color: #888; /* Gray text for timestamp */
+}
+
+.mark-read-button,
+.delete-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.mark-read-button {
+  background-color: #007bff; /* Blue */
+  color: white;
+}
+
+.mark-read-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.delete-button {
+  background-color: #dc3545; /* Red */
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
